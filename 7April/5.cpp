@@ -25,18 +25,15 @@ int main() {
     String s1("Hello");
     String s2("Hello");
     String s3("World");
-
     if (s1 == s2) {
         cout << "s1 == s2 " << endl;
     } else {
         cout << "s1 != s2 " << endl;
     }
-
     if (s1 == s3) {
         cout << "s1 == s3 " << endl;
     } else {
         cout << "s1 != s3 " << endl;
     }
-
     return 0;
 }
